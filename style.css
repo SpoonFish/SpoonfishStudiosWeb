@@ -6,6 +6,11 @@
   position: relative;
   font-family: var(--font-main);
 }
+
+.content {
+  background-image: url("Images/epic_logo_transparent_long.png");
+}
+
 body {
   background-image: url("Images/page_background.png");
   background-repeat: repeat-y;
