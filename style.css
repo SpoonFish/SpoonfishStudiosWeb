@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  max-width: 100%;
   overflow: hidden;
   position: relative;
   font-family: var(--font-main);
@@ -22,7 +21,11 @@ body {
 .the-space-at-the-top {
   height: 80px;
 }
+.the-space-at-the-bottom {
+  height: 200px;
+}
 #under-nav {
+  height: 1000px;
   background-image: url("Images/page_middle.png");
   background-repeat: repeat-y;
   background-size: 100%;
@@ -238,9 +241,11 @@ body {
 
 @media screen and (max-width: 670px) {
   #under-nav h1 {
+    font-size: 50px;
     margin: 10%;
   }
   #under-nav h2 {
+    font-size: 30px;
     margin: 10%;
   }
   #under-nav {
